@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+header{
+    background-color: #00cdcf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vh;
+    color: white;
+
+}
+
+nav{
+    width: 30vw;
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.cajaHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 40vw;
+    height: 20vh;
+    border: white 2px solid;
+    margin-bottom: 20px;
+    line-height: 3rem;
+}
