@@ -114,3 +114,50 @@ main div .cajitaMain p{
     color: white;
     margin-top: 40px;
 }
+
+/* Section: Formulario*/
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.formulario div{
+    text-align: center;
+    line-height: 3rem;
+    margin-right: 50px;
+}
+.formulario div img{
+    width: 100px;
+}
+
+form{
+    margin-top: 30px;
+    height: 300px;
+    line-height: 3rem;
+    margin-left: 30px;
+}
+
+
+
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 15px;
+}
+
+textarea{
+    margin-top: 30px;
+    width: 350px;
+    height: 200px;
+    border-radius: 5%;
+    border-color: #00cdcf;
+    text-align: left;
+    
+
+}
+.mail input{
+    width: 82%;
+}
