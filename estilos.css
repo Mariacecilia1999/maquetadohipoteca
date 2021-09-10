@@ -41,3 +41,36 @@ nav ul{
     margin-bottom: 20px;
     line-height: 3rem;
 }
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 3rem;
+    margin-top: 30px;
+    
+}
+
+main div{
+    display: flex;
+    margin: 30px;
+
+}
+
+main div .cajitaMain{
+    display: flex;
+    flex-direction: column;
+}
+
+main div .cajitaMain span{
+    color: #00cdcf;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+main div .cajitaMain p{
+    width: 300px;
+}
