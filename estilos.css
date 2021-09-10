@@ -102,3 +102,15 @@ main div .cajitaMain p{
     width:30vw;
     line-height: 2.5rem;
 }
+
+/*section: llamanos*/
+.llamanos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00cdcf;
+    height: 12vh;
+    color: white;
+    margin-top: 40px;
+}
