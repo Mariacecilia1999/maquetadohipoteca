@@ -42,6 +42,10 @@ nav ul{
     line-height: 3rem;
 }
 
+.cajaHeader button{
+    width: 100px;
+}
+
 /*Main*/
 
 main{
@@ -194,3 +198,13 @@ footer img{
 footer p{
     margin-bottom: 4px;
 }
+
+/*
+#contacto{
+    display: flex;
+    justify-content: flex-end;
+    height: 50vh;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #00cdcf;
+}*/

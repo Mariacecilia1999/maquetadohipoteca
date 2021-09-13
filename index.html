@@ -74,33 +74,33 @@
         </div>
     </section>
 
-    <section class="llamanos">
+    <section  id="llama" class="llamanos">
         <h2>Llamanos ahora!</h2>
         <p>Contactate con nosotros llamando a: 2245421576</p>
 
     </section>
 
-    <section class="formulario">
+    <section id="formulario" class="formulario">
         <div>
             <h2>Contacto</h2>
             <p>Contactactate con nosotros de manera online</p>
             <p>Completa el formulario</p>
             <img src="flecha.png" alt="">
         </div>
-            <form action="">
+            <form>
               
                 <div>
                     <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre">
+                    <input type="text" name="nombre" id="nombre">
 
                     <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido">
+                    <input type="text" name="apellido" id="apellido">
 
                 </div>
 
                 <div class="mail">
                     <label for="mail">E-mail</label>
-                    <input type="email" name="mail">
+                    <input type="email" name="mail" id="mail">
                 </div>
 
                 <div>
@@ -108,12 +108,20 @@
                         Escribinos tu mensaje
                     </textarea>
                 </div>
+                <div>
+                    <label onclick="enviar()"  for="name">Enviar</label>
+                    
+                </div>
+
             
             </form>
            
         </div>
 
     </section>
+    <div id="contacto" >
+        
+    </div>
 
     <footer>
         <h4>Nuestras redes sociales!</h4>
@@ -125,6 +133,6 @@
         </div>
         <p>Derechos de autor: Maria Cecilia Conti</p>
     </footer>
-    
+    <script src="formulario.js"></script>
 </body>
 </html>
