@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto hipoteca</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>Nosotros</li>
-                <li>Opciones</li>
-                <li>Contacto</li>
+                <li class="ancla" data-ancla="nosotros">Nosotros</li>
+                <li class="ancla" data-ancla="llamanos">Llamanos</li>
+                <li class="ancla" data-ancla="contactanos">Contacto</li>
             </ul>
         </nav>
 
         <div class="cajaHeader">
             <h1>Hipotecamos tu casa</h1>
             <p>Hasta 24 cuotas sin intereses</p>
-            <button>Consultanos</button>
+            <button id="boton">Ver opciones</button>
 
         </div>
     </header>
 
-    <main>
+    <main class="mostrarMain">
         <h2>Nuestras opciones</h2>
         <div>
             <div class="cajitaMain">
@@ -64,30 +65,30 @@
         </div>
     </main>
 
-    <section class="nosotros">
+    <section id="nosotros" class="nosotros">
         <h2>Nosotros</h2>
         <div>
-            <img src="grupo.jpg" alt="">
+            <img src="./img/grupo.jpg" alt="equipo de trabajo">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe alias in dolore laborum quam numquam doloremque ratione vel, optio obcaecati consequuntur tempora modi impedit consectetur, nihil accusantium. Eveniet, error temporibus?</p>
 
             
         </div>
     </section>
 
-    <section  id="llama" class="llamanos">
+    <section  id="llamanos" class="llamanos">
         <h2>Llamanos ahora!</h2>
         <p>Contactate con nosotros llamando a: 2245421576</p>
 
     </section>
 
-    <section id="formulario" class="formulario">
-        <div>
-            <h2>Contacto</h2>
-            <p>Contactactate con nosotros de manera online</p>
-            <p>Completa el formulario</p>
-            <img src="flecha.png" alt="">
+    <section  class="formulario" id="contactanos">
+        <div class="contactoFormulario">
+            <h2 id="cambiarTitulo">Contacto</h2>
+            <p id="cambiandoParrafo">Contactactate con nosotros de manera online</p>
+            <p id="cambiandoANombre">Completa el formulario</p>
+            <img id="ocultar" src="./img/flecha.png" alt="">
         </div>
-            <form>
+            <form id="bloqueoFormulario">
               
                 <div>
                     <label for="nombre">Nombre</label>
@@ -108,8 +109,8 @@
                         Escribinos tu mensaje
                     </textarea>
                 </div>
-                <div>
-                    <label onclick="enviar()"  for="name">Enviar</label>
+                <div class="botonFormulario">
+                    <label onclick="enviar()"   for="name">Enviar</label>
                     
                 </div>
 
@@ -119,17 +120,17 @@
         </div>
 
     </section>
-    <div id="contacto" >
+    <div id="contacto"  class="contacto">
         
     </div>
 
     <footer>
         <h4>Nuestras redes sociales!</h4>
         <div>
-            <img src="facebook.png" alt="">
-            <img src="whatsapp.png" alt="">
-            <img src="gorjeo.png" alt="">
-            <img src="instagram.png" alt="">
+            <img src="./img/facebook.png" alt="icono facebook">
+            <img src="./img/whatsapp.png" alt="icono whatsapp">
+            <img src="./img/gorjeo.png" alt="icono twitter">
+            <img src="./img/instagram.png" alt="icono instagram">
         </div>
         <p>Derechos de autor: Maria Cecilia Conti</p>
     </footer>

@@ -13,7 +13,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 35vh;
+    height: 50vh;
     color: white;
 
 }
@@ -29,6 +29,12 @@ nav ul{
     list-style: none;
     
 }
+
+nav ul li{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
 .cajaHeader{
     display: flex;
     flex-direction: column;
@@ -38,7 +44,7 @@ nav ul{
     width: 40vw;
     height: 20vh;
     border: white 2px solid;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
     line-height: 3rem;
 }
 
@@ -127,6 +133,7 @@ main div .cajitaMain p{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 75vh;
     
 
 }
@@ -199,6 +206,10 @@ footer p{
     margin-bottom: 4px;
 }
 
+.nosotros{
+    margin-top: 30px;
+}
+
 /*
 #contacto{
     display: flex;
@@ -208,3 +219,110 @@ footer p{
     text-align: center;
     color: #00cdcf;
 }*/
+
+.mostrarMain{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    header{
+        height: 80vh;
+       
+    }
+    nav{
+        width: 100vw;
+    }
+
+    nav ul li{
+        margin-top: 20px;
+    }
+
+    .cajaHeader{
+        width: 80vw;
+        height: 40vh;
+        margin-bottom: 40px;
+    }
+    
+    main div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    main div .cajitaMain{
+        width: 79vw;
+
+    }
+
+    .nosotros div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+    .nosotros div p, .nosotros div img{
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+
+    .llamanos{
+        height: 12vh;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+
+    .formulario img{
+        margin-top: 20px;
+        transform: rotate(70deg);
+        
+    }
+
+    .contactoFormulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    input{
+        width: 60vw;
+    
+    }
+
+    textarea{
+        height: 20vh;
+       
+    }
+
+    footer{
+        margin-top: 30px;
+        height: 20vh;
+        display: flex;
+        background-color: #00cdcf;
+        
+    }
+
+   
+    footer img{
+        width: 25px;
+    }
+
+    .contacto{
+        height: 30vh;
+        font-size: 1.2rem;
+    }
+
+  }
+
